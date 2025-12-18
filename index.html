@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Dashboard Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="main-title">API Dashboard</h1>
+    <div class="grid-container">
+      <section class="grid-item" id="dog-api">
+        <h2>🐶 Random Dog</h2>
+        <button onclick="getdogimage()">Get Dog</button>
+        <div class="output" id="dog-output"></div>
+      </section>
+
+      <section class="grid-item" id="cat-api">
+        <h2>😺 Random Cat</h2>
+        <button onclick="getcatimage()">Get Cat</button>
+        <div class="output" id="cat-output"></div>
+      </section>
+
+      <section class="grid-item" id="joke-api">
+        <h2>😂 Random Joke</h2>
+        <button onclick="getjoke()">Get Joke</button>
+        <div class="output" id="joke-output"></div>
+      </section>
+
+      <section class="grid-item" id="advice-api">
+        <h2>💡 Random Advice</h2>
+        <button onclick="getadvice()">Get Advice</button>
+        <div class="output" id="advice-output"></div>
+      </section>
+
+      <section class="grid-item" id="fox-api">
+        <h2>🦊 Random Fox</h2>
+        <button onclick="getfoximage()">Get Fox</button>
+        <div class="output" id="fox-output"></div>
+      </section>
+
+      <section class="grid-item" id="trivia-api">
+        <h2>❓ Random Trivia</h2>
+        <button onclick="gettrivia()">Get Trivia</button>
+        <div class="output" id="trivia-output"></div>
+      </section>
+
+   <section class="grid-item" id="meal-api">
+        <h2>🍉 Random Meal</h2>
+        <button onclick="getmeal()">Get Meal</button>
+        <div class="output" id="meal-output"></div>
+      </section>
+
+<section class="grid-item" id="pokemon-api">
+        <h2>🦖 Random Pokémon</h2>
+        <button onclick="getpokemon()">Get Pokémon</button>
+        <div class="output" id="pokemon-output"></div>
+      </section>
+
+      <section class="grid-item" id="funfact-api">
+        <h2>🧐 Fun Facts</h2>
+        <button onclick="getfunfact()">Get Facts</button>
+        <div class="output" id="funfact-output"></div>
+      </section>
+
+    <script src="api.js"></script>
+  </body>
+</html>
